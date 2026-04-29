@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(255, 253, 145);
+    font-family: Arial;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+/* organiza as fotos */
+.album {
+    display: flex;
+    flex-wrap: wrap; /* quebra linha */
+    justify-content: center;
+}
+
+/* cada foto */
+.card {
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 10px;
+    width: 150px;
+}
+
+/* imagem */
+.card img {
+    width: 100%;
+}
+
+/* legenda */
+.card p {
+    font-size: 14px;
+}
+.footer-bottom {
+  background: linear-gradient(90deg, #d89b2b, #c4811f);
+  text-align: center;
+  padding: 12px;
+  font-size: 14px;
+  color: #111;
+  letter-spacing: 0.5px;
+}
